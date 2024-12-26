@@ -11,5 +11,5 @@ spring:
 server:
   port: 0
 image:
-  path: /Programming/Java/SpringBootMusicApp/Backend/image-service/images
+  dir: images
   default: default_image.png

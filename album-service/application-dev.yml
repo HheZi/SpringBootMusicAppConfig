@@ -11,7 +11,6 @@ spring:
       value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
 server:
   port: 0
-file.temp: /Programming/Java/SpringBootMusicApp/Backend/album-service/temp
 file.max-size: 1_048_576 
 kafka.topic:
    track-topic.name: "album-deletion-topic"

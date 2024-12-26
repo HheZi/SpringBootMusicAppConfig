@@ -14,5 +14,5 @@ spring:
         spring.json.default.value.type: com.app.kafka.message.TrackDeletionMessage
 server:
   port: 0
-audio.path: /Programming/Java/SpringBootMusicApp/Backend/audio-service/audio
+audio.dir: audio
 chunk.max-size: 1_048_576 

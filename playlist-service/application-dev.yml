@@ -17,6 +17,5 @@ spring:
         spring.json.default.value.type: com.app.kafka.message.TrackDeletionMessage
 server:
   port: 0
-file.temp: /Programming/Java/SpringBootMusicApp/Backend/playlist-service/temp
 file.max-size: 1_048_576 
 kafka.topic.name: "image-deletion-topic"
