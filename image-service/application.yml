@@ -1,16 +1,12 @@
 spring:
-  r2dbc:
-    url: r2dbc:postgresql://localhost:5432/FavoriteDB
-    password: postgres
-    username: postgres
-  kafka:
-    bootstrap-servers:
-      - localhost:9092
     consumer:
       key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
       value-deserializer: org.springframework.kafka.support.serializer.JsonDeserializer
       properties:
         spring.json.trusted.packages: "com.app.kafka.message"
-        spring.json.default.value.type: com.app.kafka.message.TrackDeletionMessage
+        spring.json.default.value.type: com.app.kafka.message.ImageDeletionMessage
 server:
   port: 0
+image:
+  dir: images
+  default: default_image.png

@@ -1,0 +1,5 @@
+spring:
+  r2dbc:
+    url: r2dbc:postgresql://author-db:5432/AuthorDB
+    username: postgres
+    password: postgres

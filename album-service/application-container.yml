@@ -1,0 +1,8 @@
+spring:
+  r2dbc:
+    url: r2dbc:postgresql://album-db:5432/AlbumDB
+    username: postgres
+    password: postgres
+  kafka:
+    bootstrap-servers:
+      - kafka:9092
