@@ -3,6 +3,3 @@ spring:
     url: r2dbc:postgresql://localhost:5432/AlbumDB
     username: postgres
     password: postgres
-  kafka:
-    bootstrap-servers:
-      - localhost:9092

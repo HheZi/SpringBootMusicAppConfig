@@ -13,4 +13,4 @@ spring:
 server:
   port: 0
 audio.dir: audio
-chunk.max-size: 1_048_576 
+chunk.max-size: 1_048_576
