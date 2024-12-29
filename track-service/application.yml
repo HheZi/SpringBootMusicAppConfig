@@ -1,13 +1,4 @@
 spring:
-  application:
-    name: author-service
-  r2dbc:
-    url: r2dbc:postgresql://localhost:5432/AuthorDB
-    username: postgres
-    password: postgres
-  kafka:
-    bootstrap-servers:
-       - localhost:9092
     producer:
       key-serializer: org.apache.kafka.common.serialization.StringSerializer
       value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
@@ -16,8 +7,7 @@ spring:
       value-deserializer: org.springframework.kafka.support.serializer.JsonDeserializer
       properties:
         spring.json.trusted.packages: "com.app.kafka.message"
-        spring.json.default.value.type: com.app.kafka.message.ImageDeletionMessage
 server:
   port: 0
-file.max-size: 1_048_576 
-kafka.topic.name: "image-deletion-topic"
+file.max-size: 37748736
+kafka.topic.name: track-deletion-topic
