@@ -1,8 +1,12 @@
 spring:
   kafka:
     bootstrap-servers:
+<<<<<<< HEAD
       - kafka:9092
 eureka:
   client:
     service-url:
       defaultZone: http://eureka-server:8761/eureka/
+=======
+      - kafka:9092
+>>>>>>> 11a44a24d4f137b80bcab9589ebcd35c9865a94a
