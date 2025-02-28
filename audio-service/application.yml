@@ -9,4 +9,5 @@ spring:
 server:
   port: 0
 audio.dir: audio
+file.max-size: 37748736
 chunk.max-size: 1_048_576
